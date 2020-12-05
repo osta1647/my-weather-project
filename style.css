@@ -1,0 +1,25 @@
+body {
+    font-family: arial, sans-serif;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  }
+  h1 {
+    color: blue;
+  }
+  h1,
+  h2,
+  h3,
+  .row {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px black;
+  }
+  form {
+    text-align: center;
+  }
+  .weather-app {
+    border: 1px solid;
+    border-radius: 20px;
+  }

@@ -15,22 +15,29 @@
     <div class="weather-app">
         <div class="container">
       <h1 id="city">Dallas</h1>
-      <h2 id="temperature"></h2>
+      <ul>
+          <li id="date"></li>
+      </ul>
+      <h2 id="temperature"> 
+          <span class="units"></span>°F</h2>
       <form class="search-form" id="search-form">
-        <input type="text" placeholder="Type a City" id="search-text-input" class="form-control" />
-        <button id="special-button" type="search" class="btn btn-primary">
+        <input type="search" placeholder="Type a City" id="search-text-input" class="form-control" />
+        <button id="special-button" type="submit" value ="search" class="btn btn-primary">
           Search
         </button>
       </form>
       <h3>
-        Current Weather 59°F |°C
-        <br />
-        Forecast:
-        <br />
-      </h3>
+        Current Weather: 
+        <ul>
+            <li id="description"></li>
+            <li>Wind: <span id="wind"></span> m/hr</li>
+            <li>Humidity: <span id="humidity">%</span></li>
+            <li></li>
+        </h3>
       <div class="weather-temperature">
         <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" id="icon">
       </div>
+      <h4>Forecast:</h4>
       <div class="row">
         <div class="col">
           Mon 68°F/57°F <i class="fas fa-cloud"></i>

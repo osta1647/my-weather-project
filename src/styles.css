@@ -8,8 +8,12 @@ body {
   h1,
   h2,
   h3,
+  h4,
   .row {
     text-align: center;
+  }
+  li{
+    list-style: none;
   }
   button {
     display: block;
@@ -23,6 +27,14 @@ body {
     display: block;
     margin:0 auto;
     padding:0;
+  }
+  #date{
+text-align:center;
+    font-weight:bold;
+    font-size: 32px;
+  }
+  #description:first-letter{
+    text-transform: capitalize;
   }
   .weather-app {
     border: 1px solid;

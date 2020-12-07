@@ -30,7 +30,7 @@ function formatDate(now) {
     cityElement.innerHTML = searchTextInput.value;
     axios.get(apiUrl).then(showTemperature);
   }
-  let units = "metric";
+  let units = "imperial";
   
   let temperatureElement = document.querySelector("#temperature");
   let currentTime = new Date();

@@ -1,42 +1,49 @@
 body {
-    font-family: arial, sans-serif;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  }
-  h1 {
-    color: blue;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  .row {
-    text-align: center;
-  }
-  li{
-    list-style: none;
-  }
-  button {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 5px 5px 5px black;
-  }
-  form {
-    text-align: center;
-  }
-  #icon{
-    display: block;
-    margin:0 auto;
-    padding:0;
-  }
-  #date{
-text-align:center;
-    font-weight:bold;
-    font-size: 32px;
-  }
-  #description:first-letter{
-    text-transform: capitalize;
-  }
-  .weather-app {
-    border: 1px solid;
-    border-radius: 20px;
-  }
+  font-family: arial, sans-serif;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+h1 {
+  color: blue;
+}
+h1,
+h2,
+h3,
+h4,
+.row {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+#icon {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+#date {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+#description:first-letter {
+  text-transform: capitalize;
+}
+.weather-app {
+  border: 1px solid;
+  border-radius: 20px;
+}
+#search-text-input {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}

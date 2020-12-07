@@ -15,7 +15,6 @@ function formatDate(timestamp) {
   }
   function showTemperature(response) {
     console.log(response.data.main.temp);
-    let windElement=document.querySelector ("#wind");
     let humidityElement= document.querySelector ("#humidity")
     let descriptionElement=document.querySelector ("#description");
     let temperatureElement = document.querySelector("#temperature");
@@ -24,7 +23,6 @@ function formatDate(timestamp) {
       temperatureElement.innerHTML = `${Math.round(response.data.main.temp)}°F|°C`;
     dateElement.innerHTML= formatDate(response.data.dt*1000);
     descriptionElement.innerHTML=(response.data.weather[0].description);
-    windElement.innerHTML=`${Math.round(response.data.main.wind)} m/hr`;
     humidityElement.innerHTML= `${(response.data.main.humidity)}%`;
     iconElement.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   }
